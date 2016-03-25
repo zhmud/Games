@@ -1,0 +1,29 @@
+﻿Build started 17.02.2016 10:34:28.
+     1>Project "C:\Users\Женя\Desktop\Tetris\ConsolEngine\ConsolEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BaseApp.cpp main.cpp Tetris.cpp Tetromino.cpp
+         Tetromino.cpp
+         Tetris.cpp
+         main.cpp
+         BaseApp.cpp
+     1>c:\users\женя\desktop\tetris\consolengine\performancecounter.h(35): warning C4244: 'return': conversion from 'LONGLONG' to 'int', possible loss of data
+     1>c:\users\женя\desktop\tetris\consolengine\performancecounter.h(42): warning C4244: 'return': conversion from 'LONGLONG' to 'int', possible loss of data
+     1>c:\users\женя\desktop\tetris\consolengine\baseapp.cpp(16): warning C4838: conversion from 'const int' to 'SHORT' requires a narrowing conversion
+     1>c:\users\женя\desktop\tetris\consolengine\baseapp.cpp(17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+     1>c:\users\женя\desktop\tetris\consolengine\baseapp.cpp(96): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(458): note: see declaration of 'kbhit'
+     1>c:\users\женя\desktop\tetris\consolengine\baseapp.cpp(98): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(452): note: see declaration of 'getch'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Женя\Desktop\Tetris\Debug\Tetris.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Женя\Desktop\Tetris\Debug\Tetris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Женя\Desktop\Tetris\Debug\Tetris.lib" /MACHINE:X86 /SAFESEH Debug\BaseApp.obj
+         Debug\main.obj
+         Debug\Tetris.obj
+         Debug\Tetromino.obj
+     1>BaseApp.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>LINK : fatal error LNK1207: incompatible PDB format in 'C:\Users\Женя\Desktop\Tetris\Debug\Tetris.pdb'; delete and rebuild
+     1>Done Building Project "C:\Users\Женя\Desktop\Tetris\ConsolEngine\ConsolEngine.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.28
